@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    
+    
+    <!-- Bring in bootstrap stylesheet -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    
+    <!-- Bring in personal stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Bring in bootswatch theme -->
+    <link rel="stylesheet" href="https://bootswatch.com/slate/bootstrap.css">
+
+    <!-- Bring in google font -->
+    <link href="https://fonts.googleapis.com/css?family=Rationale|Russo+One" rel="stylesheet">
+
+    <!-- Bring in javascript -->
+    <script src="assets/javascript/game.js"></script>
+
+    <title>Star Wars RPG</title>
+  </head>
+  <body class="backgroundImage">
+
+    <div class="wrapper">
+      <div class="row">
+        <div class="col-md-12 textRight">
+          <h1 class="page-header" font-family="'Lobster', cursive">Star Wars RPG!</h1>
+        </div>
+      </div>
+
+      <div class="row" id="characterSelection">
+        <div class="col-md-2 characterTile" id="char1">
+          <div class="row">
+            <h5>Obi-Wan Kenobi</h5>
+          </div>
+          <img src="assets/images/obi-wan-kenobi.jpg" width="100%">
+          <div class="row"><br/></div>
+        </div>
+
+        <div class="col-md-2 characterTile" id="char2">
+          <div class="row">
+            <h5>Yoda</h5>
+          </div>
+          <img src="assets/images/yoda.jpg" width="100%">
+          <div class="row"><br/></div>
+        </div>
+
+        <div class="col-md-2 characterTile" id="char3">
+          <div class="row">
+            <h5>Dark Vader</h5>
+          </div>
+          <img src="assets/images/dark-vader.jpg" width="100%">
+          <div class="row"><br/></div>
+        </div>
+
+        <div class="col-md-2 characterTile" id="char4">
+          <div class="row">
+            <h5>Darth Maul</h5>
+          </div>
+          <img src="assets/images/darth-maul.jpeg" width="100%">
+          <div class="row"><br/></div>
+        </div>
+
+      </div> 
+      
+      <h3>Your Character</h3>
+      <div class="row" id="yourCharacter">
+      </div>
+
+      <h3>Enemies Available to Attack</h3>
+      <div class="row" id="enemiesRow">
+      </div>
+      
+      <h3>Fight Section</h3>
+      
+      <button type="button" class="btn btn-default" id="attack">Attack</button>
+
+      <h3>Defender</h3>
+      <div class="row" id="defenderRow">
+      </div>
+
+
+
+    </div>
+
+
+  </body>
+</html>
+

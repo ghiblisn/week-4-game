@@ -1,0 +1,53 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.textRight{
+	text-align: right;
+}
+.textCenter{
+	text-align:center;
+}
+.backgroundImage{
+	background-image: url("../images/background.jpg");
+}
+.characterTile{
+	border:3px;
+	border-color:green;
+	border-style: double;
+	background:darkgray;
+	color: black;
+	text-align:center;
+}
+.yourCharacterTile{
+	border:3px;
+	border-color:green;
+	border-style: double;
+	background:white;
+	color: black;
+	text-align:center
+}
+.enemiesCharacterTile{
+	border:3px;
+	border-color:black;
+	border-style: double;
+	background:red;
+	color: black;
+	text-align:center
+}
+.defenderCharacterTile{
+	border:3px;
+	border-color:green;
+	border-style: double;
+	background:black;
+	color: white;
+	text-align:center
+}
+.wrapper{
+	width:80%;
+	margin:0 auto;
+}
+#defenderRow{
+	margin-bottom:20px;
+}
